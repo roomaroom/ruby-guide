@@ -13,10 +13,11 @@
 
 **RVM — Ruby Version Manager** Програма для управління версіями Ruby.     
 встановити curl - *sudo apt-get install curl libcurl3 libcurl3-dev php5-curl*  
-встановити rvm  - *\curl -sSL https://get.rvm.io*    
+встановити rvm  - https://rvm.io/rvm/install   
 source ~/.rvm/scripts/rvm
+echo "source $HOME/.rvm/scripts/rvm" >> ~/.bash_profile
 rvm list - список версій рубі 
-rvm install ruby 2.2.3
+rvm install ruby 2.2.3 - встановити рубі 2.2.3
 
 **gem - пакет (файл) з бібліотекою або додатком.** Має стандартизований вигляд і розташований в сховище в мережі. https://rubygems.org/gems
 gem install devise
